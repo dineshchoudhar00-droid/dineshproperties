@@ -330,7 +330,7 @@ async function loadProperty() {
 
 
                     <a
-                        href="tel:+919876543210"
+                        href="tel: +919649608259"
                         class="call-btn"
                     >
 
@@ -340,7 +340,7 @@ async function loadProperty() {
 
 
                     <a
-                        href="https://wa.me/919876543210"
+                        href="https://wa.me/ 9196496082590"
                         target="_blank"
                         class="whatsapp-btn"
                     >
