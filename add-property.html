@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Property</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Add New Property</h1>
+
+        <button onclick="goDashboard()">Dashboard</button>
+
+    </header>
+
+
+    <main class="form-container">
+
+        <form id="propertyForm">
+
+            <label>Property Title</label>
+            <input
+                type="text"
+                id="title"
+                placeholder="Example: 3 BHK Luxury House"
+                required
+            >
+
+
+            <label>Property Type</label>
+
+            <select id="type" required>
+
+                <option value="">Select Property Type</option>
+
+                <option value="House">House</option>
+                <option value="Flat">Flat</option>
+                <option value="Plot">Plot</option>
+                <option value="Shop">Shop</option>
+                <option value="Office">Office</option>
+                <option value="Villa">Villa</option>
+
+            </select>
+
+
+            <label>Price</label>
+
+            <input
+                type="text"
+                id="price"
+                placeholder="Example: ₹65 Lakh"
+                required
+            >
+
+
+            <label>Location</label>
+
+            <input
+                type="text"
+                id="location"
+                placeholder="Example: Jaipur, Rajasthan"
+                required
+            >
+
+
+            <label>Area</label>
+
+            <input
+                type="text"
+                id="area"
+                placeholder="Example: 1500 sq.ft"
+                required
+            >
+
+
+            <label>Description</label>
+
+            <textarea
+                id="description"
+                rows="6"
+                placeholder="Enter property details..."
+                required
+            ></textarea>
+
+
+            <label>Property Photos</label>
+
+            <input
+                type="file"
+                id="photos"
+                accept="image/*"
+                multiple
+                required
+            >
+
+
+            <div id="preview"></div>
+
+
+            <button type="submit" class="save-btn">
+                Add Property
+            </button>
+
+        </form>
+
+    </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="add-property.js"></script>
+
+</body>
+
+</html>
