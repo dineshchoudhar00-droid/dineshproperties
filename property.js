@@ -340,7 +340,7 @@ async function loadProperty() {
 
 
                     <a
-                        href="https://wa.me/ 9196496082590"
+                        href="https://wa.me/96496082590"
                         target="_blank"
                         class="whatsapp-btn"
                     >
